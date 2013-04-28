@@ -1,0 +1,72 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+svg {
+  width: 1200px;
+  height: 800px;
+  pointer-events: all;
+}
+
+.airport {
+  fill: #60F;
+  opacity:1;
+}
+
+.destination{
+  fill: #3C9;
+  opacity:1;
+}
+
+.flight{
+  fill:none;
+  stroke-width:1;
+  stroke:green;
+
+}
+.flight-today{
+  stroke-dasharray:0;
+  stroke-width:1.2;
+}
+
+.flight-historical{
+  stroke-dasharray:2,2;
+  
+}
+
+.flight-future{
+  stroke-dasharray:5,5;
+}
+
+/*.first{
+  stroke:blue;
+}
+
+.business{
+  stroke:orange;
+}
+
+.economy{
+  stroke:green;
+}*/
+
+#footer{display:none !important;}
+
+path {
+  fill: #aaa;
+  stroke: #fff;
+  opacity: .4;
+}
+
+#info{
+  position:absolute;
+  top:80px;
+  left:40px;
+}
+
+#info > div {margin-bottom:30px;}
+.stat > p, .stat_sublabel { font-style:italic;margin:0;color:#666;}
+.stat_num{ font-weight:bold;font-size:3em; margin:0;color:#008;}
